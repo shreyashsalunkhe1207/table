@@ -1,7 +1,7 @@
 <html>
   <head>
     <style>
-
+      table ,th ,td
       {border :1px solid red j padding :5px ; text-align : lift ;}
     </style>
   </head>
@@ -11,22 +11,21 @@
     <p> To add a caption to a table ,use the caption tag </p>
 
     <table>
-      <caption> monthly savings </caption>
+      <caption> Employee details </caption>
       <tr>
-        <th> month </th>
-        <th> savings </th>
-        <th> salary </th>
+        <td> Name </td>
+        <td> Age </td>
+        <th> Address </td>
       </tr>
       <tr>
-        <td> january </td>
-        <td> $100 </td>
-
-        <td> 70000 </td>
+        <td> Shreyash </td>
+        <td> 20 </td>
+        <td> Mumbai </td>
       </tr>
       <tr>
-        <td> february </td>
-        <td> $50 </td>
-        <td> 100000 </td>
+        <td> Sujal </td>
+        <td> 21 </td>
+        <td> Dubai </td>
       </tr>
     </table>
   </body>
