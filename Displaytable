@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <style>
+
+      {border :1px solid red j padding :5px ; text-align : lift ;}
+    </style>
+  </head>
+  <body>
+
+    <h2>basic table</h2>
+    <p> To add a caption to a table ,use the caption tag </p>
+
+    <table>
+      <caption> monthly savings </caption>
+      <tr>
+        <th> month </th>
+        <th> savings </th>
+        <th> salary </th>
+      </tr>
+      <tr>
+        <td> january </td>
+        <td> $100 </td>
+
+        <td> 70000 </td>
+      </tr>
+      <tr>
+        <td> february </td>
+        <td> $50 </td>
+        <td> 100000 </td>
+      </tr>
+    </table>
+  </body>
+</html>
